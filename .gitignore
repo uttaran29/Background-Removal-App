@@ -1,0 +1,20 @@
+# === Ignore all .env files ===
+*.env
+**/.env
+
+# === Frontend (Node/Vite/React) ===
+frontend-app/node_modules/
+frontend-app/dist/
+frontend-app/.vite/
+
+# === Backend (Spring Boot) ===
+removebg/target/
+removebg/*.log
+removebg/*.class
+removebg/*.jar
+
+# === IDEs and OS files ===
+.idea/
+*.iml
+.vscode/
+.DS_Store
